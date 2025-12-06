@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "JamesStroker";
+  src: url("james-stroker-font/JamesStroker-Regular.otf");
+}
 /* 
 #f3ebf3; */
 body {
@@ -399,5 +403,6 @@ button.btn.btn-info.center-block{
   margin-top:2em;
   }
 }
+
 
 
