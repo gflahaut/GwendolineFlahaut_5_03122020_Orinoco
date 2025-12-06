@@ -23,7 +23,7 @@ async function apicall(url) {
 //
 (function() {
 let productId= new URLSearchParams(window.location.search).get('product');
-const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies/'+productId;
+const url = 'https://gwendolineflahaut-5-03122020-serveur.onrender.com/api/teddies/'+productId;
 apicall(url).then((object) => { 
     showOneTeddy(object);
 })
@@ -112,3 +112,4 @@ function showOneTeddy(teddy){
     })
 
 }
+
