@@ -332,7 +332,7 @@ function sendForm() {
 */
 async function send(contact, arrayProductId){
         try{
-            const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies/order';
+            const url = 'https://gwendolineflahaut-5-03122020-serveur.onrender.com/api/teddies/order';
             const response = await fetch(url, {
             method: 'POST',
             headers: {
@@ -347,4 +347,5 @@ async function send(contact, arrayProductId){
             alert(error)
         }
 }
+
 
