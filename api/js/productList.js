@@ -24,7 +24,7 @@ async function apicall(url) {
  */
 //
 (function() {
-    const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies';
+    const url = 'https://gwendolineflahaut-5-03122020-serveur.onrender.com/api/teddies';
     apicall(url).then((object) => {
         let allIds=[];
         for(let y=0; y<object.length; y++){
@@ -84,6 +84,7 @@ function showProduct(teddy) {
         </div>
     </footer>`;
 }
+
 
 
 
